@@ -6,11 +6,14 @@
 /*   By: ekypraio <ekypraio@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/10/13 17:09:30 by ekypraio          #+#    #+#             */
-/*   Updated: 2025/10/14 15:35:09 by ekypraio         ###   ########.fr       */
+/*   Updated: 2025/10/23 16:39:08 by ekypraio         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
+
+// Prüft, ob ein Zeichen alphanumerisch ist.
+// Das bedeutet, es ist entweder ein Buchstabe (A-Z oder a-z) oder eine Ziffer (0-9).
 
 int	ft_isalnum(int c)
 {

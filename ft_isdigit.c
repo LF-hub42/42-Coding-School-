@@ -6,11 +6,14 @@
 /*   By: ekypraio <ekypraio@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/10/13 16:45:53 by ekypraio          #+#    #+#             */
-/*   Updated: 2025/10/14 15:35:29 by ekypraio         ###   ########.fr       */
+/*   Updated: 2025/10/23 16:39:57 by ekypraio         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
+
+// Prüft, ob ein Zeichen eine Ziffer (0-9) ist.
+// Gibt 1 (true) zurück, wenn das Zeichen zwischen '0' und '9' liegt.
 
 int	ft_isdigit(int c)
 {

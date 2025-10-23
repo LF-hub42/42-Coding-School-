@@ -6,14 +6,18 @@
 /*   By: ekypraio <ekypraio@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/10/13 15:43:23 by ekypraio          #+#    #+#             */
-/*   Updated: 2025/10/14 15:35:16 by ekypraio         ###   ########.fr       */
+/*   Updated: 2025/10/23 16:38:49 by ekypraio         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
+// Prüft, ob ein Zeichen ein alphabetischer Buchstabe ist.
+// Gibt 1 (true) zurück, wenn das Zeichen zwischen 'A'–'Z' oder 'a'–'z' liegt.
+// Groß- und Kleinbuchstaben werden also beide erkannt
 int	ft_isalpha(int c)
 {
+	// Überprüfung, ob das Zeichen im Bereich der Groß- oder Kleinbuchstaben liegt
 	if ((c >= 'A' && c <= 'Z') || (c >= 'a' && c <= 'z'))
 		return (1);
 	return (0);

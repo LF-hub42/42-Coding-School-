@@ -6,11 +6,11 @@
 /*   By: ekypraio <ekypraio@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/10/14 19:26:40 by ekypraio          #+#    #+#             */
-/*   Updated: 2025/10/15 23:00:52 by ekypraio         ###   ########.fr       */
+/*   Updated: 2025/10/23 21:16:43 by ekypraio         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include <stddef.h>
+#include "libft.h"
 
 void	*ft_memset(void *s, int c, size_t n)
 {
