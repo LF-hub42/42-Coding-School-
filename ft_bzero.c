@@ -6,22 +6,47 @@
 /*   By: ekypraio <ekypraio@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/10/14 21:21:08 by ekypraio          #+#    #+#             */
-/*   Updated: 2025/10/15 23:15:28 by ekypraio         ###   ########.fr       */
+/*   Updated: 2025/10/23 16:00:32 by ekypraio         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include <stddef.h>
+#include "libft.h"
 
-void	ft_bzero(void *s, size_t n)
+/*
+** Die Funktion ft_bzero setzt die ersten n Bytes des Speicherbereichs,
+** auf den s zeigt, auf den Wert 0/Nullbyte
+**
+** Sie wird oft benutzt, um Speicher zu "leeren" oder zu initialisieren,
+** z. B. bevor man ihn für einen String oder eine Struktur verwendet.
+**
+** Parameter:
+** s : Zeiger auf den Speicherbereich, der auf 0 gesetzt werden soll
+** n : Anzahl der Bytes, die auf 0 gesetzt werden sollen
+**
+** Rückgabewert:
+** Keiner daher (void)
+*/
+
+void	ft_bzero(void *memory_block, size_t number_of_bytes)
 {
-	size_t			i;
-	unsigned char	*ptr;
+	size_t			index;
+	unsigned char	*byte_pointer;
 
-	ptr = (unsigned char *)s;
-	i = 0;
-	while (i < n)
+	// Casten des void-Zeiger auf unsigned char*, um Byte-für-Byte zu arbeiten.
+	// unsigned char ist 1 Byte groß, um byte fuer byte durchzuarbeiten
+	byte_pointer = (unsigned char *)memory_block;
+
+	// Startindex auf 0 setzen
+	index = 0;
+
+	// Solange index kleiner als die gewünschte Anzahl von Bytes ist
+	while (index < number_of_bytes)
 	{
-		ptr[i] = 0;
-		i++;
+		// Setzt das aktuelle Byte im Speicherbereich auf 0
+		byte_pointer[index] = 0;
+
+		// Gehe bitte zum nächsten Byte
+		index++;
 	}
 }
+
