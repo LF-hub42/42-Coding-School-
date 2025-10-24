@@ -6,7 +6,7 @@
 /*   By: ekypraio <ekypraio@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/10/14 19:26:40 by ekypraio          #+#    #+#             */
-/*   Updated: 2025/10/23 21:16:43 by ekypraio         ###   ########.fr       */
+/*   Updated: 2025/10/24 15:44:43 by ekypraio         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -30,8 +30,11 @@ void	*ft_memset(void *s, int c, size_t n)
 	return (r);
 }
 
-#include <unistd.h>
-#include <stdlib.h>
+// ft_memset füllt einen Speicherbereich (b) mit einem bestimmten Byte-Wert (c),
+// und zwar für len Bytes.
+
+// #include <unistd.h>
+// #include <stdlib.h>
 
 // int	main(void)
 // {

@@ -6,7 +6,7 @@
 /*   By: ekypraio <ekypraio@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/10/14 21:21:08 by ekypraio          #+#    #+#             */
-/*   Updated: 2025/10/23 16:00:32 by ekypraio         ###   ########.fr       */
+/*   Updated: 2025/10/24 15:41:54 by ekypraio         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -34,18 +34,18 @@ void	ft_bzero(void *memory_block, size_t number_of_bytes)
 
 	// Casten des void-Zeiger auf unsigned char*, um Byte-für-Byte zu arbeiten.
 	// unsigned char ist 1 Byte groß, um byte fuer byte durchzuarbeiten
+
 	byte_pointer = (unsigned char *)memory_block;
 
-	// Startindex auf 0 setzen
 	index = 0;
 
 	// Solange index kleiner als die gewünschte Anzahl von Bytes ist
+
 	while (index < number_of_bytes)
 	{
-		// Setzt das aktuelle Byte im Speicherbereich auf 0
+
 		byte_pointer[index] = 0;
 
-		// Gehe bitte zum nächsten Byte
 		index++;
 	}
 }

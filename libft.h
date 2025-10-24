@@ -6,7 +6,7 @@
 /*   By: ekypraio <ekypraio@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/10/14 15:38:25 by ekypraio          #+#    #+#             */
-/*   Updated: 2025/10/23 21:35:26 by ekypraio         ###   ########.fr       */
+/*   Updated: 2025/10/24 15:02:32 by ekypraio         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -26,7 +26,7 @@ int		ft_isalpha(int c);
 int		ft_isascii(int character);
 int		ft_isdigit(int c);
 int		ft_isprint(int c);
-void	*ft_memchr(const void *s, int c, size_t n); void
+void	*ft_memchr(const void *s, int c, size_t n);
 int		ft_memcmp(const void *s1, const void *s2, size_t n);
 void	*ft_memcpy(void *destination, const void *source, size_t number_of_bytes);
 void	*ft_memmove(void *destination, const void *source, size_t number_of_bytes);

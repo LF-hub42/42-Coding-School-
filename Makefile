@@ -6,7 +6,7 @@
 #    By: ekypraio <ekypraio@student.42.fr>          +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2025/10/17 14:24:46 by ekypraio          #+#    #+#              #
-#    Updated: 2025/10/17 16:22:34 by ekypraio         ###   ########.fr        #
+#    Updated: 2025/10/24 14:58:26 by ekypraio         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -28,6 +28,9 @@ CFLAGS  := -Wall -Wextra -Werror
 
 AR		:= ar
 ARFLAGS := -rc
+
+# ar =archiv
+# rc = fuegt in archiv ein oder erstellt eins falls nicht vorhanden
 
 S_FILES	:=	ft_toupper.c ft_isalpha.c ft_isdigit.c ft_tolower.c ft_isalnum.c \
 			ft_isascii.c ft_strchr.c ft_isprint.c ft_strrchr.c ft_strlen.c \
