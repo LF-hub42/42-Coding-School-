@@ -6,14 +6,14 @@
 /*   By: ekypraio <ekypraio@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/10/14 17:32:25 by ekypraio          #+#    #+#             */
-/*   Updated: 2025/10/24 18:30:23 by ekypraio         ###   ########.fr       */
+/*   Updated: 2025/10/24 20:19:45 by ekypraio         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include <stdio.h>
 #include <string.h>
 
-size_t	strlen(const char *s)
+size_t	ft_strlen(const char *s)
 {
 	size_t	i;
 

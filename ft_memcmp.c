@@ -6,13 +6,11 @@
 /*   By: ekypraio <ekypraio@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/10/23 19:53:21 by ekypraio          #+#    #+#             */
-/*   Updated: 2025/10/24 14:54:11 by ekypraio         ###   ########.fr       */
+/*   Updated: 2025/10/24 19:18:49 by ekypraio         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
-
-// Die Funktion ft_memcmp (oder das Standardpendant memcmp aus der C-Standardbibliothek) vergleicht zwei Speicherbereiche byteweise
 
 int	ft_memcmp(const void *s1, const void *s2, size_t n)
 {
@@ -27,4 +25,5 @@ int	ft_memcmp(const void *s1, const void *s2, size_t n)
 	}
 	return (0);
 }
-
+// Die Funktion ft_memcmp (oder das Standardpendant memcmp aus der
+// C-Standardbibliothek) vergleicht zwei Speicherbereiche byteweise

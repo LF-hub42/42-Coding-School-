@@ -6,17 +6,17 @@
 /*   By: ekypraio <ekypraio@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/10/14 15:38:25 by ekypraio          #+#    #+#             */
-/*   Updated: 2025/10/24 15:02:32 by ekypraio         ###   ########.fr       */
+/*   Updated: 2025/10/24 20:23:31 by ekypraio         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #ifndef LIBFT_H
 # define LIBFT_H
 
-# include <stdlib.h>
-# include <unistd.h>
 # include <stddef.h>
+# include <stdlib.h>
 # include <string.h>
+# include <unistd.h>
 
 int		ft_atoi(const char *char_pointer);
 void	ft_bzero(void *memory_block, size_t number_of_bytes);
@@ -28,20 +28,18 @@ int		ft_isdigit(int c);
 int		ft_isprint(int c);
 void	*ft_memchr(const void *s, int c, size_t n);
 int		ft_memcmp(const void *s1, const void *s2, size_t n);
-void	*ft_memcpy(void *destination, const void *source, size_t number_of_bytes);
-void	*ft_memmove(void *destination, const void *source, size_t number_of_bytes);
+void	*ft_memcpy(void *dest, const void *source, size_t number_of_bytes);
+void	*ft_memmove(void *dest, const void *source, size_t number_of_bytes);
 void	*ft_memset(void *s, int c, size_t n);
 char	*ft_strchr(const char *s, int c);
 char	*ft_strdup(const char *s);
 size_t	ft_strlcat(char *dst, const char *src, size_t size);
-size_t	ft_strlcpy(char *dst, const char *src, int size);
-size_t	strlen(const char *s);
+size_t	ft_strlcpy(char *dst, const char *src, size_t size);
+size_t	ft_strlen(const char *s);
 int		ft_strncmp(const char *s1, const char *s2, size_t n);
 char	*ft_strnstr(const char *big, const char *little, size_t len);
 char	*ft_strrchr(const char *s, int c);
 int		ft_tolower(int c);
 int		ft_toupper(int c);
-
-
 
 #endif
