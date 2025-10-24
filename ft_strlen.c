@@ -6,7 +6,7 @@
 /*   By: ekypraio <ekypraio@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/10/14 17:32:25 by ekypraio          #+#    #+#             */
-/*   Updated: 2025/10/24 15:58:02 by ekypraio         ###   ########.fr       */
+/*   Updated: 2025/10/24 18:30:23 by ekypraio         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -22,5 +22,6 @@ size_t	strlen(const char *s)
 		i++;
 	return (i);
 }
-// Bestimmt die Länge eines Strings (also die Anzahl der Zeichen vor dem Nullterminator \0).
+// Bestimmt die Länge eines Strings
+// (also die Anzahl der Zeichen vor dem Nullterminator \0).
 // Gibt diese Länge als size_t zurück.

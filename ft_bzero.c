@@ -6,11 +6,25 @@
 /*   By: ekypraio <ekypraio@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/10/14 21:21:08 by ekypraio          #+#    #+#             */
-/*   Updated: 2025/10/24 15:41:54 by ekypraio         ###   ########.fr       */
+/*   Updated: 2025/10/24 19:15:40 by ekypraio         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
+
+void	ft_bzero(void *memory_block, size_t number_of_bytes)
+{
+	size_t			index;
+	unsigned char	*byte_pointer;
+
+	byte_pointer = (unsigned char *)memory_block;
+	index = 0;
+	while (index < number_of_bytes)
+	{
+		byte_pointer[index] = 0;
+		index++;
+	}
+}
 
 /*
 ** Die Funktion ft_bzero setzt die ersten n Bytes des Speicherbereichs,
@@ -26,27 +40,27 @@
 ** Rückgabewert:
 ** Keiner daher (void)
 */
+// #include "libft.h"
 
-void	ft_bzero(void *memory_block, size_t number_of_bytes)
-{
-	size_t			index;
-	unsigned char	*byte_pointer;
+// void	ft_bzero(void *memory_block, size_t number_of_bytes)
+// {
+// 	size_t			index;
+// 	unsigned char	*byte_pointer;
 
-	// Casten des void-Zeiger auf unsigned char*, um Byte-für-Byte zu arbeiten.
-	// unsigned char ist 1 Byte groß, um byte fuer byte durchzuarbeiten
+// 	// Casten des void-Zeiger auf unsigned char*, um Byte-für-Byte zu arbeiten.
+// 	// unsigned char ist 1 Byte groß, um byte fuer byte durchzuarbeiten
 
-	byte_pointer = (unsigned char *)memory_block;
+// 	byte_pointer = (unsigned char *)memory_block;
 
-	index = 0;
+// 	index = 0;
 
-	// Solange index kleiner als die gewünschte Anzahl von Bytes ist
+// 	// Solange index kleiner als die gewünschte Anzahl von Bytes ist
 
-	while (index < number_of_bytes)
-	{
+// 	while (index < number_of_bytes)
+// 	{
 
-		byte_pointer[index] = 0;
+// 		byte_pointer[index] = 0;
 
-		index++;
-	}
-}
-
+// 		index++;
+// 	}
+// }
