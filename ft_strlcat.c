@@ -6,7 +6,7 @@
 /*   By: ekypraio <ekypraio@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/10/23 21:17:46 by ekypraio          #+#    #+#             */
-/*   Updated: 2025/10/24 16:13:45 by ekypraio         ###   ########.fr       */
+/*   Updated: 2025/10/26 19:55:42 by ekypraio         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -33,3 +33,33 @@ size_t	ft_strlcat(char *dst, const char *src, size_t size)
 	}
 	return (nsrc + ndst);
 }
+Funktionen: strlcpy() und strlcat()
+
+// Dienen zum Kopieren bzw. Anhängen von Strings.
+
+// Sie sind sicherere Alternativen
+// zu strncpy() und strncat().
+
+// 🔹 Wichtige Eigenschaften:
+
+// Beide Funktionen bekommen die Gesamtgröße des
+// Puffers (size) als Parameter, nicht nur die Länge.
+
+// Sie garantieren eine NUL-Terminierung
+// ('\0'), solange Platz vorhanden ist.
+
+// size muss den Platz für das
+// NUL-Zeichen mit einschließen.
+
+// Arbeiten nur mit gültigen C-Strings
+// (also Strings, die bereits NUL-terminiert sind).
+
+// 🔹 Funktionsweise:
+
+// strlcpy(dst, src, size):
+// Kopiert maximal size - 1 Zeichen von src nach
+// dst und fügt ein abschließendes NUL-Zeichen hinzu.
+
+// strlcat(dst, src, size):
+// Hängt src an dst an, aber nur bis size - strlen(dst)
+// - 1 Bytes, und sorgt ebenfalls für NUL-Terminierung.

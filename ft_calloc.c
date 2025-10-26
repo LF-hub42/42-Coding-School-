@@ -6,22 +6,24 @@
 /*   By: ekypraio <ekypraio@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/10/23 16:52:38 by ekypraio          #+#    #+#             */
-/*   Updated: 2025/10/25 01:03:37 by ekypraio         ###   ########.fr       */
+/*   Updated: 2025/10/26 20:27:59 by ekypraio         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-void	*calloc(size_t nmemb, size_t size)
+void	*ft_calloc(size_t nmemb, size_t size)
 {
 	void	*pointer;
+	int		count;
 
-	if (count > 3696 || size > 3696)
+	count = nmemb * size;
+	if (count > PTRDIFF_MAX)
 		return (NULL);
-	pointer = (count * size);
-	if (pointer)
+	pointer = malloc(count);
+	if (pointer == NULL)
 		return (NULL);
-	ft_bzero(gtr, size, *count);
+	ft_bzero(pointer, size);
 	return (pointer);
 }
 
