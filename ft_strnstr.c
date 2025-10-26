@@ -6,7 +6,7 @@
 /*   By: ekypraio <ekypraio@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/10/23 21:20:17 by ekypraio          #+#    #+#             */
-/*   Updated: 2025/10/24 20:22:28 by ekypraio         ###   ########.fr       */
+/*   Updated: 2025/10/27 00:49:46 by ekypraio         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -25,7 +25,7 @@ char	*ft_strnstr(const char *big, const char *little, size_t len)
 			return ((char *)big);
 	return (NULL);
 }
-// The  strstr()  function locates the first occurrence of the null-termi-
-// ated string little in the null-terminated string big.
-// The strcasestr()	function is similar to strstr(), but ignores the  case
-// of both strings.
+// Die Funktion strstr() sucht das erste Vorkommen der nullterminierten Zeichenkette
+// little in der Zeichenkette big.
+// Die Funktion strcasestr() macht dasselbe
+// ignoriert dabei jedoch die Groß- und Kleinschreibung.

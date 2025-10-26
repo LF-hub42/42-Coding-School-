@@ -6,7 +6,7 @@
 /*   By: ekypraio <ekypraio@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/10/23 21:17:46 by ekypraio          #+#    #+#             */
-/*   Updated: 2025/10/26 19:55:42 by ekypraio         ###   ########.fr       */
+/*   Updated: 2025/10/27 00:48:09 by ekypraio         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -40,8 +40,6 @@ Funktionen: strlcpy() und strlcat()
 // Sie sind sicherere Alternativen
 // zu strncpy() und strncat().
 
-// 🔹 Wichtige Eigenschaften:
-
 // Beide Funktionen bekommen die Gesamtgröße des
 // Puffers (size) als Parameter, nicht nur die Länge.
 
@@ -54,7 +52,7 @@ Funktionen: strlcpy() und strlcat()
 // Arbeiten nur mit gültigen C-Strings
 // (also Strings, die bereits NUL-terminiert sind).
 
-// 🔹 Funktionsweise:
+// Funktionsweise:
 
 // strlcpy(dst, src, size):
 // Kopiert maximal size - 1 Zeichen von src nach

@@ -6,7 +6,7 @@
 /*   By: ekypraio <ekypraio@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/10/13 17:09:30 by ekypraio          #+#    #+#             */
-/*   Updated: 2025/10/24 18:28:48 by ekypraio         ###   ########.fr       */
+/*   Updated: 2025/10/27 00:44:52 by ekypraio         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -20,17 +20,5 @@ int	ft_isalnum(int c)
 		return (1);
 	return (0);
 }
-
-// #include <unistd.h>
-
-// int	main(void)
-// {
-// 	int	rv;
-
-// 	rv = ft_isalnum('1');
-// 	if (rv == 1)
-// 		write(1, "its true", 8);
-// 	return (0);
-// }
 
 // Prüft, ob ein Zeichen alphanumerisch ist

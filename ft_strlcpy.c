@@ -6,7 +6,7 @@
 /*   By: ekypraio <ekypraio@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/10/16 20:43:36 by ekypraio          #+#    #+#             */
-/*   Updated: 2025/10/26 20:01:21 by ekypraio         ###   ########.fr       */
+/*   Updated: 2025/10/27 00:48:40 by ekypraio         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -32,5 +32,5 @@ size_t	ft_strlcpy(char *dst, const char *src, size_t size)
 }
 // Diese Funktion ist deine eigene
 // Version von strlcat().
-// Sie hängt den String src an den String dst an –
+// Sie hängt den String src an den String dst an
 // ohne den Speicherpuffer zu überlaufen.

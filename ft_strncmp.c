@@ -6,7 +6,7 @@
 /*   By: ekypraio <ekypraio@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/10/23 21:19:23 by ekypraio          #+#    #+#             */
-/*   Updated: 2025/10/24 20:01:55 by ekypraio         ###   ########.fr       */
+/*   Updated: 2025/10/27 00:48:30 by ekypraio         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -36,4 +36,4 @@ int	ft_strncmp(const char *s1, const char *s2, size_t n)
 // bis zu einer bestimmten Anzahl von Zeichen (n).
 // Sie wird oft benutzt, um zu prüfen, ob zwei Strings gleich
 // sind oder in welcher Reihenfolge sie alphabetisch
-// stehen — aber nur bis maximal n Zeichen.
+// stehen ,aber nur bis maximal n Zeichen.
