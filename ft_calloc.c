@@ -6,11 +6,12 @@
 /*   By: ekypraio <ekypraio@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/10/23 16:52:38 by ekypraio          #+#    #+#             */
-/*   Updated: 2025/10/27 00:44:39 by ekypraio         ###   ########.fr       */
+/*   Updated: 2025/10/27 01:11:32 by ekypraio         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
+#include <limits.h>
 
 void	*ft_calloc(size_t nmemb, size_t size)
 {
@@ -18,7 +19,7 @@ void	*ft_calloc(size_t nmemb, size_t size)
 	int		count;
 
 	count = nmemb * size;
-	if (count > PTRDIFF_MAX)
+	if (count > (PTRDIFF_MAX))
 		return (NULL);
 	pointer = malloc(count);
 	if (pointer == NULL)

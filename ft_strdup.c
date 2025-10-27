@@ -6,7 +6,7 @@
 /*   By: ekypraio <ekypraio@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/10/23 21:15:22 by ekypraio          #+#    #+#             */
-/*   Updated: 2025/10/26 20:56:45 by ekypraio         ###   ########.fr       */
+/*   Updated: 2025/10/27 01:02:27 by ekypraio         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -22,7 +22,6 @@ char	*ft_strdup(const char *s)
 	dup = (char *)malloc(sizeof(char) * nmem);
 	if (!dup)
 		return (NULL);
-
 	while (s[i] && i < nmem - 1)
 	{
 		dup[i] = s[i];
@@ -30,7 +29,6 @@ char	*ft_strdup(const char *s)
 	}
 	if (nmem > 0)
 		dup[i] = '\0';
-
 	return (dup);
 }
 // Erstellt eine neue Kopie eines Strings s1 im dynamisch allozierten Speicher.

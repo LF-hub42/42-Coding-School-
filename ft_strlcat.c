@@ -6,7 +6,7 @@
 /*   By: ekypraio <ekypraio@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/10/23 21:17:46 by ekypraio          #+#    #+#             */
-/*   Updated: 2025/10/27 00:48:09 by ekypraio         ###   ########.fr       */
+/*   Updated: 2025/10/27 01:05:46 by ekypraio         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -33,7 +33,6 @@ size_t	ft_strlcat(char *dst, const char *src, size_t size)
 	}
 	return (nsrc + ndst);
 }
-Funktionen: strlcpy() und strlcat()
 
 // Dienen zum Kopieren bzw. Anhängen von Strings.
 

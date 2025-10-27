@@ -6,7 +6,7 @@
 /*   By: ekypraio <ekypraio@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/10/23 16:07:11 by ekypraio          #+#    #+#             */
-/*   Updated: 2025/10/27 00:43:06 by ekypraio         ###   ########.fr       */
+/*   Updated: 2025/10/27 01:00:58 by ekypraio         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -37,4 +37,3 @@ int	ft_atoi(const char *n)
 }
 // 		// Prüft, ob ein Zeichen ein Leerraumzeichen ist
 // // (z. B. Leerzeichen, Tab, Zeilenumbruch)
-
