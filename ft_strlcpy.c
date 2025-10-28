@@ -6,7 +6,7 @@
 /*   By: ekypraio <ekypraio@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/10/16 20:43:36 by ekypraio          #+#    #+#             */
-/*   Updated: 2025/10/27 00:48:40 by ekypraio         ###   ########.fr       */
+/*   Updated: 2025/10/28 20:57:44 by ekypraio         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -16,7 +16,7 @@ size_t	ft_strlcpy(char *dst, const char *src, size_t size)
 {
 	size_t	i;
 
-	if (!dst || !src)
+	if (!dst && !src)
 		return (0);
 	i = 0;
 	if (size == 0)
