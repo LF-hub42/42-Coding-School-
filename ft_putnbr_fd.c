@@ -6,7 +6,7 @@
 /*   By: ekypraio <ekypraio@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/10/28 14:21:59 by ekypraio          #+#    #+#             */
-/*   Updated: 2025/10/28 14:54:41 by ekypraio         ###   ########.fr       */
+/*   Updated: 2025/10/28 16:26:57 by ekypraio         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -34,6 +34,9 @@ void	ft_putnbr_fd(int n, int fd)
 		write(fd, &nb, 1);
 	}
 }
-//ft_putnbr_fd:
-//Gibt die ganze Zahl 'n' über den Dateideskriptor 'fd' aus.
-//Verwendet write() und Rekursion.
+// Funktion ft_putnbr_fd nimmt zwei Parameter:
+// n: die Zahl, die ausgegeben werden soll
+// fd: der Dateideskriptor, auf den geschrieben wird
+// (z.B. 1 = stdout, 2 = stderr)
+// Rückgabewert ist void, also gibt sie nichts zurück.
+//fd=file descriptor
