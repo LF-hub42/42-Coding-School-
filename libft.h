@@ -6,7 +6,7 @@
 /*   By: ekypraio <ekypraio@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/10/14 15:38:25 by ekypraio          #+#    #+#             */
-/*   Updated: 2025/10/28 17:30:11 by ekypraio         ###   ########.fr       */
+/*   Updated: 2025/10/28 20:16:34 by ekypraio         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -17,6 +17,7 @@
 # include <stdlib.h>
 # include <string.h>
 # include <unistd.h>
+# include <limits.h>
 
 int		ft_atoi(const char *char_pointer);
 void	ft_bzero(void *memory_block, size_t number_of_bytes);
@@ -49,7 +50,7 @@ void	ft_putnbr_fd(int n, int fd);
 void	ft_putendl_fd(char *s, int fd);
 void	ft_putstr_fd(char *s, int fd);
 void	ft_putchar_fd(char c, int fd);
-void	ft_striteri(char *s, void (*f)(unsigned int,char*));
-char	*ft_strmapi(char const *s, char (*f)(unsignedint, char));
+void	ft_striteri(char *s, void (*f)(unsigned int, char*));
+char	*ft_strmapi(char const *s, char (*f)(unsigned int, char));
 
 #endif

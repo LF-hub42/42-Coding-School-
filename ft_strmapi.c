@@ -6,16 +6,11 @@
 /*   By: ekypraio <ekypraio@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/10/28 17:01:20 by ekypraio          #+#    #+#             */
-/*   Updated: 2025/10/28 17:32:57 by ekypraio         ###   ########.fr       */
+/*   Updated: 2025/10/28 19:01:20 by ekypraio         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-
-
-char *ft_strmapi(char const *s, char (*f)(unsignedint, char));
-
 #include "libft.h"
-#include <stdlib.h>
 
 char	*ft_strmapi(char const *s, char (*f)(unsigned int, char))
 {

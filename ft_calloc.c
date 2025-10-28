@@ -6,25 +6,25 @@
 /*   By: ekypraio <ekypraio@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/10/23 16:52:38 by ekypraio          #+#    #+#             */
-/*   Updated: 2025/10/27 01:11:32 by ekypraio         ###   ########.fr       */
+/*   Updated: 2025/10/28 20:17:10 by ekypraio         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
-#include <limits.h>
+#include <stdint.h>
 
 void	*ft_calloc(size_t nmemb, size_t size)
 {
 	void	*pointer;
-	int		count;
+	size_t	total;
 
-	count = nmemb * size;
-	if (count > (PTRDIFF_MAX))
+	if (size != 0 && nmemb > SIZE_MAX / size)
 		return (NULL);
-	pointer = malloc(count);
+	total = nmemb * size;
+	pointer = malloc(total);
 	if (pointer == NULL)
 		return (NULL);
-	ft_bzero(pointer, size);
+	ft_bzero(pointer, total);
 	return (pointer);
 }
 

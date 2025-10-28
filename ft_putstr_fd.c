@@ -1,12 +1,12 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   putstr_fd.c                                        :+:      :+:    :+:   */
+/*   ft_putstr_fd.c                                     :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: ekypraio <ekypraio@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/10/28 16:43:25 by ekypraio          #+#    #+#             */
-/*   Updated: 2025/10/28 17:09:35 by ekypraio         ###   ########.fr       */
+/*   Updated: 2025/10/28 20:12:16 by ekypraio         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -34,6 +34,4 @@ void	ft_putstr_fd(char *s, int fd)
 // Gibt den String s auf dem File Descriptor fd aus.
 // Parameter:
 // s Der auszugebende String.
-// fd Der File Descriptor (z.B. 1 für stdout, 2 für stderr).
-
-
+// fd Der File Descriptor (z.B. 1 für stdout, 2 für stderr)

@@ -6,7 +6,7 @@
 /*   By: ekypraio <ekypraio@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/10/28 16:28:32 by ekypraio          #+#    #+#             */
-/*   Updated: 2025/10/28 17:25:49 by ekypraio         ###   ########.fr       */
+/*   Updated: 2025/10/28 20:12:46 by ekypraio         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -35,4 +35,3 @@ void	ft_putendl_fd(char *s, int fd)
 //Hinweis:
 //Die Funktion verwendet write() direkt
 //und beendet den String mit '\n'
-

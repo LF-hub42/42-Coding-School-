@@ -6,7 +6,7 @@
 /*   By: ekypraio <ekypraio@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/10/23 21:15:22 by ekypraio          #+#    #+#             */
-/*   Updated: 2025/10/27 01:02:27 by ekypraio         ###   ########.fr       */
+/*   Updated: 2025/10/28 19:03:23 by ekypraio         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -18,6 +18,7 @@ char	*ft_strdup(const char *s)
 	int		nmem;
 	int		i;
 
+	i = 0;
 	nmem = ft_strlen(s) + 1;
 	dup = (char *)malloc(sizeof(char) * nmem);
 	if (!dup)
