@@ -6,7 +6,7 @@
 /*   By: ekypraio <ekypraio@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/10/23 19:52:54 by ekypraio          #+#    #+#             */
-/*   Updated: 2025/10/28 21:42:11 by ekypraio         ###   ########.fr       */
+/*   Updated: 2025/10/28 23:23:02 by ekypraio         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,25 +14,25 @@
 
 void	*ft_memchr(const void *s, int c, size_t n)
 {
-	int i;
+	int					i;
 	const unsigned char	*ptr;
 	unsigned char		to_find;
 
 	ptr = (const unsigned char *)s;
 	to_find = (unsigned char)c;
 	i = 0;
-	if(n != 0)
+	if (n != 0)
 	{
 		n--;
-		while(n != 0 && ptr[i] != to_find)
+		while (n != 0 && ptr[i] != to_find)
 		{
 			n--;
 			i++;
 		}
-		if(ptr[i] == to_find)
-			return((void *)&s[i]);
+		if (ptr[i] == to_find)
+			return ((void *)&s[i]);
 	}
-	return(NULL);
+	return (NULL);
 }
 
 // int main (void)
