@@ -6,7 +6,7 @@
 /*   By: ekypraio <ekypraio@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/10/14 15:38:25 by ekypraio          #+#    #+#             */
-/*   Updated: 2025/10/29 18:37:39 by ekypraio         ###   ########.fr       */
+/*   Updated: 2025/10/30 00:34:47 by ekypraio         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -18,8 +18,6 @@
 # include <string.h>
 # include <unistd.h>
 # include <limits.h>
-# include <stdio.h>
-// stdio delete for eval
 
 int		ft_atoi(const char *char_pointer);
 void	ft_bzero(void *memory_block, size_t number_of_bytes);
