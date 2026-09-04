@@ -2,191 +2,178 @@
 
 # 🧩 Libft
 
-## 📌 Description
+> My first C library — 42 Heilbronn
+
+## 📖 About
 
 Libft is one of the first projects of the 42 curriculum.
 
-The goal of the project is to create my own C library containing functions that
-are commonly used when working with strings, characters, memory, and numbers.
+The goal of the project is to create my own C library containing functions that are commonly used when working with characters, strings, memory, numbers, and file descriptors.
 
-Instead of relying on the standard library for these functions, I implemented
-my own versions with the `ft_` prefix.
+Instead of relying on existing implementations, I recreated these functions using basic C concepts such as loops, pointers, memory allocation, and string manipulation.
 
-The project helped me understand how basic C functions work internally and gave
-me a better understanding of pointers, memory management, strings, and dynamic
-allocation.
+Libft was an important introduction to the way commonly used C functions work internally and provided a foundation for the projects that follow in the 42 curriculum.
 
-## Instructions
+## 🎯 Project Goals
 
-### Compilation
+The main goals of the project were to:
 
-```bash
-make
-```
+- Understand how commonly used C functions work internally
+- Work confidently with pointers and pointer arithmetic
+- Manage dynamically allocated memory
+- Manipulate strings and character arrays
+- Understand different integer and unsigned types
+- Build and use a static library
+- Follow the 42 coding standard and Norminette requirements
 
-### Clean
+## 🧰 Functions
 
-```bash
-make clean
-```
-
-### Full Clean
-
-```bash
-make fclean
-```
-
-### Recompile
-
-```bash
-make re
-```
-
-## Functions
-
-The library contains implementations of functions for different purposes.
+The library contains implementations of the functions required by the Libft subject.
 
 ### Character Checks
 
-- `ft_isalpha` — Checks whether a character is an alphabetic letter
-- `ft_isdigit` — Checks whether a character is a digit
-- `ft_isalnum` — Checks whether a character is alphanumeric
-- `ft_isascii` — Checks whether a character belongs to the ASCII range
-- `ft_isprint` — Checks whether a character is printable
+| Function | Description |
+|---|---|
+| `ft_isalpha` | Checks whether a character is alphabetic |
+| `ft_isdigit` | Checks whether a character is a digit |
+| `ft_isalnum` | Checks whether a character is alphanumeric |
+| `ft_isascii` | Checks whether a character belongs to the ASCII range |
+| `ft_isprint` | Checks whether a character is printable |
+
+### String Functions
+
+| Function | Description |
+|---|---|
+| `ft_strlen` | Returns the length of a string |
+| `ft_strchr` | Searches for a character in a string |
+| `ft_strrchr` | Searches for a character from the end of a string |
+| `ft_strncmp` | Compares two strings up to a given length |
+| `ft_strnstr` | Searches for a string inside another string |
+| `ft_strdup` | Creates a duplicate of a string |
+| `ft_strlcpy` | Copies a string with size limitation |
+| `ft_strlcat` | Appends a string with size limitation |
+| `ft_substr` | Creates a substring |
+| `ft_strjoin` | Joins two strings |
+| `ft_strtrim` | Removes specified characters from the beginning and end |
+| `ft_split` | Splits a string into an array of strings |
 
 ### Memory Functions
 
-- `ft_bzero` — Sets a memory area to zero
-- `ft_memchr` — Searches for a character in a memory area
-- `ft_calloc` — Allocates and initializes memory
+| Function | Description |
+|---|---|
+| `ft_memset` | Fills a memory area with a byte value |
+| `ft_bzero` | Sets a memory area to zero |
+| `ft_memcpy` | Copies a memory area |
+| `ft_memmove` | Copies a memory area while handling overlapping regions |
+| `ft_memchr` | Searches for a byte in a memory area |
+| `ft_memcmp` | Compares two memory areas |
+| `ft_calloc` | Allocates and initializes memory |
 
-### String and Conversion Functions
+### Conversion Functions
 
-- `ft_atoi` — Converts a string into an integer
-- `ft_itoa` — Converts an integer into a string
+| Function | Description |
+|---|---|
+| `ft_atoi` | Converts a string to an integer |
+| `ft_itoa` | Converts an integer to a string |
+| `ft_tolower` | Converts a character to lowercase |
+| `ft_toupper` | Converts a character to uppercase |
 
-The functions were implemented using basic C concepts such as loops, pointers,
-type conversions, dynamic memory allocation, and string manipulation.
+### File Descriptor Functions
 
-## 🧠 What I Learned
+| Function | Description |
+|---|---|
+| `ft_putchar_fd` | Writes a character to a file descriptor |
+| `ft_putstr_fd` | Writes a string to a file descriptor |
+| `ft_putendl_fd` | Writes a string followed by a newline |
+| `ft_putnbr_fd` | Writes an integer to a file descriptor |
 
-Working on Libft helped me understand some of the C concepts that are used
-throughout the later 42 projects.
+### Function Pointer Based Functions
 
-In particular:
+| Function | Description |
+|---|---|
+| `ft_strmapi` | Creates a new string by applying a function to each character |
+| `ft_striteri` | Applies a function to each character and allows modification |
+
+## 🛠️ Compilation
+
+The project includes a Makefile with the following rules.
+
+### Build
+
+Run `make` to compile the library.
+
+The resulting static library is:
+
+`libft.a`
+
+### Clean object files
+
+Run `make clean` to remove the generated object files.
+
+### Remove all generated files
+
+Run `make fclean` to remove the generated object files and the static library.
+
+### Recompile
+
+Run `make re` to clean and rebuild the library.
+
+## 🧪 Testing
+
+The implementation was tested during development using individual tests and external Libft testers.
+
+The project was also checked against the 42 requirements, including compilation with:
+
+`-Wall -Wextra -Werror`
+
+and Norminette compliance.
+
+## 📚 What I Learned
+
+Working on Libft gave me a better understanding of several fundamental C concepts:
 
 - Pointers and pointer arithmetic
-- Working with `void *`
-- Memory allocation with `malloc`
+- `void *` and type casting
+- Dynamic memory allocation with `malloc`
 - Memory initialization
 - Strings and character arrays
 - `size_t` and memory sizes
-- Type casting
+- ASCII values
+- Integer and unsigned types
 - Handling negative numbers
-- Checking for allocation failures
-- Working with ASCII values
+- Checking allocation failures
+- Function pointers
+- Working with file descriptors
+- Building a static library with `ar`
 
-For example, `ft_bzero` works directly on the memory address provided to the
-function and sets each byte to `0`.
+One important part of the project was learning to work directly with memory instead of treating library functions as black boxes.
 
-`ft_calloc` builds on this idea by allocating memory and then using `ft_bzero`
-to initialize the allocated memory.
+For example, `ft_bzero` accesses the provided memory byte by byte and sets each byte to zero.
 
-## 🔧 Implementation Examples
+`ft_calloc` builds on this concept by allocating memory and then initializing the allocated area.
 
-### ft_isalpha
+## 📁 Project Structure
 
-`ft_isalpha` checks whether the given value represents an uppercase or lowercase
-letter.
+    libft/
+    ├── Makefile
+    ├── libft.h
+    ├── README.md
+    ├── Libft.en.subject.pdf
+    ├── .gitignore
+    └── ft_*.c
 
-```c
-int	ft_isalpha(int c)
-{
-	if ((c >= 'A' && c <= 'Z') || (c >= 'a' && c <= 'z'))
-		return (1);
-	return (0);
-}
-```
+## 📄 Subject
 
-### ft_bzero
+The original project subject is included in the repository:
 
-`ft_bzero` uses an `unsigned char` pointer to access the memory byte by byte and
-sets the requested number of bytes to zero.
-
-```c
-void	ft_bzero(void *memory_block, size_t number_of_bytes)
-{
-	size_t			index;
-	unsigned char	*byte_pointer;
-
-	byte_pointer = (unsigned char *)memory_block;
-	index = 0;
-	while (index < number_of_bytes)
-	{
-		byte_pointer[index] = 0;
-		index++;
-	}
-}
-```
-
-### ft_calloc
-
-`ft_calloc` allocates memory for multiple elements, checks for an integer
-overflow, and initializes the allocated memory to zero.
-
-```c
-void	*ft_calloc(size_t nmemb, size_t size)
-{
-	void	*pointer;
-	size_t	total;
-
-	if (size != 0 && nmemb > SIZE_MAX / size)
-		return (NULL);
-	total = nmemb * size;
-	pointer = malloc(total);
-	if (pointer == NULL)
-		return (NULL);
-	ft_bzero(pointer, total);
-	return (pointer);
-}
-```
-
-### ft_itoa
-
-`ft_itoa` converts an integer into a dynamically allocated string. Negative
-numbers are handled separately and the resulting string is terminated with
-`'\0'`.
-
-### ft_memchr
-
-`ft_memchr` searches through a memory block for a specific byte and returns a
-pointer to the first matching position.
-
-## 🛠️ Development
-
-The project was developed in C following the coding standards of the 42
-curriculum.
-
-I used VS Code during development and tested individual functions while
-implementing them.
-
-The source files follow the 42 header format and use the required `ft_` naming
-convention.
-
-Some functions also include small commented test programs that were used during
-development to check their behaviour.
-
-## 📚 Resources
-
-- 42 Libft Subject
-- C standard library documentation
-- `man` pages
-- C programming documentation
-- Personal tests and experimentation
+`Libft.en.subject.pdf`
 
 ## 🤖 AI Usage
 
-AI was used during the project to help clarify some C concepts and understand
-how certain standard functions work.
+AI was used during the project as a learning aid to clarify C concepts, understand the behaviour of standard functions, and help identify possible problems during development.
 
-The implementation was written and understood by me.
+The implementation was written and understood by me. AI assistance was used to support the learning process rather than to replace understanding of the code.
+
+---
+
+*42 Heilbronn — Common Core*
