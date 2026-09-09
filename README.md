@@ -2,7 +2,7 @@ Hi, I'm Eleftherios 👋
 
 💻 Software Developer | Digital Entrepreneur
 🎓 Currently studying & building real-world projects
-🚀 Founder of LF DIGITAL AGENCY
+💡 Founder of LF DIGITAL AGENCY
 
 What I'm working on
 
