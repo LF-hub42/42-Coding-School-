@@ -1,23 +1,29 @@
-Hi, I'm Eleftherios 👋
+## 🎓 42 Heilbronn
 
-💻 Software Developer | Digital Entrepreneur
-🎓 Currently studying & building real-world projects
-💡 Founder of LF DIGITAL AGENCY
+I am currently studying software development at **42 Heilbronn**.
 
-What I'm working on
+42 follows a project-based and peer-to-peer learning model without
+traditional classes or lectures. Students learn by solving practical
+programming challenges, building projects and evaluating each other's work.
 
-• 42 School — Software development projects in C, Python and more
-• LF DIGITAL AGENCY — My own digital consultancy, focused on
-  digitalization, technology and business growth
-• iSYNQ — Building a digital music platform
+My journey at 42 started with the **Piscine**, an intensive four-week
+coding program focused on Shell, C and problem solving.
 
-Tech I'm currently working with
+After successfully completing the Piscine, I entered the **42 Core
+Curriculum**, a self-paced program that develops increasingly advanced
+software engineering skills through practical projects.
 
-TypeScript · React · Next.js · Tailwind CSS
-Git · GitHub · APIs · Vercel
+### 💻 Programming & Technical Focus
 
-Currently exploring
+- C
+- Python
+- Shell / Bash
+- Linux
+- Algorithms & data structures
+- System programming
+- Networking
+- Git & collaborative development
+- Software architecture and problem solving
 
-AI · Automation · Docker · AI Agents · MCP
-
-Always learning. Always building.
+My repositories document my progress from the first Piscine exercises
+to increasingly complex software projects.
