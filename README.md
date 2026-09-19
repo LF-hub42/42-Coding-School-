@@ -6,9 +6,9 @@ I am currently studying **Software Development at 42 Heilbronn**, with a growing
 
 <img src="assets/headings/my-journey.svg" alt="My Journey">
 
-My journey at **42 Heilbronn** started with the **Piscine**, an intensive four-week coding program focused primarily on **Shell, C and problem solving**.
+My journey at **42 Heilbronn** started with the **Piscine on July 28, 2025**, an intensive four-week coding program focused primarily on **Shell, C and problem solving**.
 
-After successfully completing the Piscine, I entered the **42 Heilbronn Core Curriculum**.
+After successfully completing the Piscine, I started the **42 Heilbronn Core Curriculum in October 2025**, continuing my education in **Software Development** through 42's project-based and peer-to-peer learning model.
 
 The Core Curriculum is self-paced and structured across **6 milestones**, with projects becoming progressively more complex. Alongside the projects, students complete on-campus exams independently to demonstrate their understanding of the concepts developed throughout the curriculum.
 
