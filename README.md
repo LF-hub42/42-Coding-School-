@@ -1,52 +1,42 @@
-# <span style="color:#58A6FF">🎓 42 Heilbronn</span>
+<img src="assets/headings/42-heilbronn.svg" alt="42 Heilbronn">
 
-I am currently studying **Software Development at 42 Heilbronn**, where I focus on programming, problem solving and building practical software projects.
+I am currently studying **Software Development at 42 Heilbronn**, with a growing focus on **Python development**, alongside my foundation in **C programming**.
 
-42 follows a **project-based and peer-to-peer learning model** without traditional classes or lectures. Instead of following predefined lessons, students learn by solving programming challenges, developing projects independently and evaluating each other's work through peer reviews.
+42 Heilbronn follows a **project-based and peer-to-peer learning model** without traditional classes or lectures. Students learn by solving practical programming challenges, developing software projects independently and evaluating each other's work through peer reviews.
 
-## <span style="color:#A371F7">My Journey</span>
+<img src="assets/headings/my-journey.svg" alt="My Journey">
 
-My journey at 42 started with the **Piscine**, an intensive four-week coding program focused primarily on **Shell, C and problem solving**.
+My journey at **42 Heilbronn** started with the **Piscine**, an intensive four-week coding program focused primarily on **Shell, C and problem solving**.
 
-After successfully completing the Piscine, I entered the **42 Core Curriculum**.
+After successfully completing the Piscine, I entered the **42 Heilbronn Core Curriculum**.
 
 The Core Curriculum is self-paced and structured across **6 milestones**, with projects becoming progressively more complex. Alongside the projects, students complete on-campus exams independently to demonstrate their understanding of the concepts developed throughout the curriculum.
 
-My work so far has included projects and exercises involving:
+I started by building a strong foundation in **C programming** and have since expanded my work into **Python**, which is becoming an increasingly important part of my current development journey.
 
-- C programming
-- Python
+<img src="assets/headings/programming-focus.svg" alt="Programming & Technical Focus">
+
+### Languages
+
+- **Python** — current focus
+- **C** — core foundation
 - Shell / Bash
+
+### Development
+
 - Algorithms & data structures
+- Problem solving & debugging
 - Memory management
 - File handling
-- Linux environments
-- Git & GitHub
-- Problem solving and debugging
-- Peer evaluations and collaborative development
-
-## <span style="color:#3FB950">💻 Programming & Technical Focus</span>
-
-### <span style="color:#58A6FF">Languages</span>
-
-- C
-- Python
-- Shell / Bash
-
-### <span style="color:#58A6FF">Development</span>
-
 - Linux
 - Git & GitHub
 - VS Code
-- Algorithms & data structures
 - System programming
-- Software architecture
-- Debugging
 - Code review & peer evaluation
 
-## <span style="color:#D29922">Projects</span>
+<img src="assets/headings/projects.svg" alt="Projects">
 
-My repositories document my progress through the 42 curriculum — from the first exercises of the Piscine to increasingly complex software projects.
+My repositories document my progress at **42 Heilbronn**, from the first exercises of the Piscine to increasingly complex software projects.
 
 Some of the projects I have worked on include:
 
@@ -57,25 +47,27 @@ Some of the projects I have worked on include:
 - **Born2beroot** — Linux system administration and server configuration
 - **A-Maze-ing** — maze generation, pathfinding and problem solving with Python
 
-Each project introduces new technical challenges while reinforcing the concepts learned in previous projects.
+These projects have allowed me to progress from low-level programming in **C** toward increasingly complex problem solving and software development with **Python**.
 
-## <span style="color:#A371F7">🤝 Peer-to-Peer Learning</span>
+<img src="assets/headings/peer-learning.svg" alt="Peer-to-Peer Learning">
 
-One of the most valuable parts of 42 is the peer-to-peer environment.
+One of the most valuable parts of **42 Heilbronn** is the peer-to-peer environment.
 
 Projects are reviewed by other students, which means that writing working code is only one part of the process. Being able to **understand, explain and defend your own implementation** is equally important.
 
-At the same time, evaluating other projects provides experience in reading unfamiliar code, discussing different approaches and giving constructive technical feedback.
+Evaluating other projects also provides experience in reading unfamiliar code, discussing different approaches and giving constructive technical feedback.
 
-## <span style="color:#3FB950">Community</span>
+<img src="assets/headings/community.svg" alt="Community">
 
-Beyond the curriculum, I also take part in the 42 Heilbronn community and extracurricular activities.
+Beyond the curriculum, I also take part in the **42 Heilbronn community** and extracurricular activities.
 
 I was selected as a **CHAT Representative (Core Heilbronn Assistant Team)** for my kickoff cohort, supporting communication and exchange within the community.
 
-## <span style="color:#58A6FF">Current Focus</span>
+<img src="assets/headings/current-focus.svg" alt="Current Focus">
 
-I am continuing through the **42 Core Curriculum** while expanding my experience with **Python** and working on increasingly complex software development projects.
+My current focus at **42 Heilbronn** is expanding my experience with **Python** while continuing to build on the programming and problem-solving foundation I developed through **C**.
+
+I am continuing through the Core Curriculum and working on increasingly complex software projects.
 
 My goal is not only to learn programming languages, but to continuously improve the way I **analyze problems, design solutions and turn ideas into working software**.
 
