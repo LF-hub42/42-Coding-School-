@@ -1,0 +1,10 @@
+# Build files
+*.o
+push_swap
+
+# Local tools
+checker_Mac
+
+# 42 subject
+Push_swap.en.subject.pdf
+checker_linux
