@@ -1,0 +1,11 @@
+# Ignore tools and generated data
+*.tar.xz
+*.tar.gz
+data_generator.py
+*.txt
+__pycache__/
+
+
+# Cleanup:
+# rm *.txt *.tar.xz
+# rm -rf data-generator-tools

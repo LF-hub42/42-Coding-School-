@@ -1,0 +1,11 @@
+# Secrets
+.env
+
+# Python internals
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# Virtual Environments
+matrix_env/
+venv/

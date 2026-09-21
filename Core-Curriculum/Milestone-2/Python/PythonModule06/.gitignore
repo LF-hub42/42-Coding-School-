@@ -1,0 +1,12 @@
+# Python-Müll (WICHTIG)
+__pycache__/
+*.py[cod]
+
+# VS Code-spezifisch
+.vscode/
+
+# MacOS-spezifisch (falls du Mac nutzt)
+.DS_Store
+
+#clean pycache
+#find . -type d -name "__pycache__" -exec rm -rf {} +
